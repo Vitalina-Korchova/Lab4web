@@ -1,8 +1,10 @@
 export class Storage {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   static saveData(key: string, data: any): void {
     localStorage.setItem(key, JSON.stringify(data));
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   static loadData(key: string): any {
     return JSON.parse(localStorage.getItem(key) || "[]");
   }

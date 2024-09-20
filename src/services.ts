@@ -1,4 +1,4 @@
-import { Book, User, IBook, IUser } from "./models";
+import { Book, User } from "./models";
 import { Library } from "./library";
 import { Storage } from "./storage";
 import { Modal } from "./modal";
